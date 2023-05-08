@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+    /* сверху и снизу 20px
+    слево и справа 0 */
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 40px;
+    margin: 0 30px 30px 0;
+}
+
+img {
+    margin-bottom: 20px;
+}
+

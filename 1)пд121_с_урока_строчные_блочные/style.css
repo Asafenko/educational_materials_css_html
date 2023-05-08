@@ -1,0 +1,56 @@
+/* 
+    селектор
+ то к чему обращаемся {
+    название свойства: значение свойства ;
+    название свойства: значение свойства ;
+    название свойства: значение свойства ;
+ */
+
+h1 {
+    color: deeppink;
+}
+
+/* размер шрифта */
+span {
+    /* жирный */
+    font-weight: bold;
+    /* накллоный */
+    font-style: italic;
+}
+
+p{
+    font-size: 50px;
+}
+
+
+
+/* Классы  */
+.blue{
+    color: blue;
+}
+
+
+
+/* ID  */
+#pink{
+    background-color: pink;
+    text-align:left;
+}
+
+/* текст боком */
+#writingmode{
+    writing-mode: vertical-rl;
+}
+/* Не переносит строку nowrap */
+#nowrap
+{
+    white-space: nowrap;
+}
+/* верхний регистр */
+#uppercase{
+     text-transform: uppercase;
+}
+/* нижний регистр */
+#lowercase{
+    text-transform: lowercase;
+}

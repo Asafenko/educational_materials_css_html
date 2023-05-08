@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: aquamarine;
+    margin: 70px;
+    height: 400px;
+    width: 50%;
+    /* полный контроль родитель*/
+    /* position: relative; */
+
+}
+
+.blue{
+    background-color:blue;
+    color: aliceblue;
+    height: 25%;
+    width: 50%;
+    /* полный контроль ребёнок*/
+    /* position:absolute; */
+    /* сместить от вверха */
+    /* top: 40px; */
+    /* сместить от лева */
+    /* left: 40px; */
+    /* bottom: 0;
+    right: 0; */
+}
+.yellow{
+    background-color: yellow;
+    color: black;
+    height: 25%;
+    width: 50%;
+    /* position: absolute; */
+    /* bottom: 0;
+    right: 0; */
+}
+.red{
+    background-color: red;
+    color: chartreuse;
+    height: 50%;
+    /* стабильный отступ */
+    width: calc(90% - 37px);
+}

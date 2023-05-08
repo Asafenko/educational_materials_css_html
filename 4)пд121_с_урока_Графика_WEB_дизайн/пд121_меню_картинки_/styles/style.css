@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* div {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+} */
+
+
+/* a {
+    text-decoration: none;
+    color: brown;
+    background-color: aqua;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+li img {
+    width: 30px;
+} */
+
+/* p {
+    background-color: bisque;
+    margin: 30px;
+    padding: 30px; 
+}
+
+p:hover {
+    color: blue;
+    text-decoration: green wavy underline;  
+    background-color: cadetblue;
+} */
+
+a {
+    background-image: url(../images/apple.png);
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    background-color: beige;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    /* background-size: cover; */
+}
+
+a:hover {
+    background-image: url('../images/cheese.png');
+}

@@ -1,0 +1,32 @@
+label {
+    padding: 20px;
+    display: inline-block;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px rgb(93, 93, 203) solid;
+    display: inline-block;
+    margin-right: 20px;
+    outline: none;
+    padding: 5px 10px;
+    color: rgb(171, 9, 168);
+    width: 150px;
+}
+
+input[type=text]:focus {
+    background-color: rgb(213, 176, 247);;
+}
+
+
+input[type=text]:hover {
+    background-color: aqua;
+}
+
+#surname:hover {
+    background-color: yellow;
+}

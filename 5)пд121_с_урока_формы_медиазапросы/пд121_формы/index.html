@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+   <form>
+        <label for="name">Ваше имя:</label>
+        <input type="text" name="name" placeholder="Иван" id="name">
+        <label for="surname">Ваша фамилия:</label>
+        <input type="text" name="surname" placeholder="Иванов" id="surname">
+        <input type="email" name="email" placeholder="почта">
+        <label for="phone">Ваш телефон:</label>
+        <input type="number" name="phone" placeholder="+7 987" id="phone">
+        <input type="password" name="password">
+        <input type="date">
+        <input type="file">
+        <input type="submit" value="отправь форму!" disabled>
+        <input type="button" value="ну тыкай уже!">
+        <label><input type="checkbox" checked>принять условия</label>
+        <label><input type="checkbox">принять еду</label>
+        <label><input type="checkbox">принять ванну</label>
+        <p>это светофор</p>
+        <label><input type="radio" name="trafficLight" value="green" checked>зеленый</label>
+        <label><input type="radio" name="trafficLight" value="yellow">желтый</label>
+        <label><input type="radio" name="trafficLight" value="red">красный</label>
+        <p>это животное</p>
+        <label><input type="radio" name="animal" value="rat">крыса</label>
+        <label><input type="radio" name="animal" value="dog">собака</label>
+        <label><input type="radio" name="animal" value="elephant" checked>слон</label>
+        <select name="town" id="">
+            <option value="Moscow">Moscow</option>
+            <option value="Berlin" selected>Berlin</option>
+            <option value="Kazan">Kazan</option>
+        </select>
+        <p>большой текст</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+   </form>
+</body>
+</html>

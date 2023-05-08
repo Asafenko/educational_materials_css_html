@@ -1,0 +1,28 @@
+div {
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    margin: 100px;
+    border: 3px solid black;
+}
+
+/* .blue {  
+    background-color: aqua;
+} */
+
+/* .green {
+    background-color: green;
+} */
+
+div {
+    overflow: hidden;
+}
+
+img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+img {
+    width: 100%;
+    transition: 1s;
+}

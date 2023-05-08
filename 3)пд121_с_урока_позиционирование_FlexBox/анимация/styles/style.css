@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.text {
+    margin-left: 150px;
+}
+
+
+
+
+.container:hover {
+    background-color: bisque;
+    width: 300px;
+}
+
+.container {
+    background-color: aqua;
+    width: 100px;
+    height: 100vh;
+    transition: .5s;
+    position: fixed;
+}
+
+
+
+/* Более изяшный способ */
+.menu {
+    height: 100px;
+    background-color: red;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+
+.container:hover .menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Простой способ */
+/* .menu {
+    height: 100px;
+    background-color: red;
+    display: none;
+} 
+
+.container:hover .menu {
+    display: block;
+} */
+
+  
+
+
+

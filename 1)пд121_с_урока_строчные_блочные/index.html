@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentHTML</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+ <!-- различия между блочными и строчными (не все):
+  1) у почти всех блочных элементов есть встроенные отступы
+  2) блочные располагаются друг под другом, а строчные друг рядом с другом
+  3) все блочные элементы располагаются на 100% ширины своего родителя, а строчные - на ширину своего контента -->
+<body>
+    <!-- IMAGE -->
+    <img src="pink_elephant.jpg" alt="PINK ELEPHANT">
+    <!-- IMAGE URL -->
+    <img src="https://images.squarespace-cdn.com/content/v1/5c5e60bd9b8fe8286a507a5a/1603833394247-4V57IL1Z1MV8TJ8XG8RH/pink-elephant.jpg" alt="PINK ELEPHANT">
+    <!-- СТРОКИ -->
+    <h1 id="writingmode">блочный: Water for elephents!!!</h1>
+    <h2>блочный: Pink elephents</h2>
+    <h3>блочный: Pink elephents</h3>
+    <h4>блочный: Pink elephents</h4>
+    <h5>блочный: Pink elephents</h5>
+    <h6>блочный: Pink elephents</h6>
+    
+    <p class="blue">
+        <!-- p блочный -->
+        <!-- br перенос строки отступ -->
+        <!-- i наклоный шрифт -->
+        <!-- b жирный шрифт -->
+          <b>блочный:</b>  <i>pink elephents love water</i>  <br> <hr> семейство класса млекопитающих из отряда хоботных <br> <hr>
+          В настоящее время к этому семейству относятся 3 ныне живущих вида. <br> <hr>
+          Африканские саванные слоны — наиболее крупные наземные млекопитающие <hr>
+    </p>
+
+    
+    <span id="uppercase">
+        <!-- span строчный -->
+          строчный:  Sun
+    </span>
+
+    <span>
+        <!-- span строчный -->
+          строчный:  Sun 2
+    </span>
+
+    <span>
+        <!-- span строчный -->
+          строчный:  Sun 3
+    </span>
+<!-- просто линия - hr -->
+<hr >
+
+    <ul>
+        <!-- Не нумерованый -->
+        <li >блочный,не нумерованый: milk</li>
+        <li>блочный,не нумерованый: bread</li>
+        <li>блочный,не нумерованый: chips</li>
+        <li>блочный,не нумерованый: juice</li>
+    </ul>
+
+    <ol>
+        <!-- Нумерованый -->
+        <li class="blue">нумерованые: milk</li>
+        <li id="pink">нумерованые: bread</li>
+        <li>нумерованые: chips</li>
+        <li>нумерованые: juice</li>
+        <li>
+            <span> Empty</span>
+            <ul>
+                <li>блочный,не нумерованый: milk</li>
+            </ul>
+        </li>
+        <li>
+            <span>Empty</span>
+            <ol>
+                <li>нумерованые: bread</li>
+            </ol>
+        </li>
+    </ol>
+    <div>
+        <!-- div блочный -->
+        <p>DIV</p>
+        <h6>DIV</h6>
+        <span>DIV</span>
+        <h1>DIV</h1>
+    </div>
+    <!-- машинный код code-->
+    <code>MACHINE CODE</code>
+
+    <!-- пишет всё как есть pre -->
+    <pre>
+        qwert trytry y rty rty rthy tghfdgh
+
+         dfgvdfgdf 
+         gv dfg
+         dfgd  g df df fdfdgdfgdf 
+
+    &lt;html&gt; &lt;/html&gt;
+
+    &lt;head&gt; &lt;/head&gt;
+
+ dsfdsfdsfdsfds
+
+
+ dsfdsfdsfdsf
+         
+    </pre>
+
+
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+}
+
+
+
+
+.red {
+    background-color: red;
+    width: 300PX;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    transition: 1s;
+}
+.red:hover{
+    transform: matrix(1.2,0,0.5,1.2,40,0);
+}
+
+
+.blue {
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    transition: 1s;
+}
+.blue:hover{
+    transform: rotate(720deg);
+}
+
+
+.pink{
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+    transition: 1s;
+}
+.pink:hover{
+    transform: translate(20px,-20px);
+    /* transform: translateX(20px); */
+    /* transform: translateY(-20px); */
+}
+
+
+.black{
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    transition: 1s;
+}
+.black:hover{
+   transform: rotateX(200deg);
+}
+
+
+
+.yellow{
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+    transition: 1s;
+}
+.yellow:hover{
+    transform: scale(1.5,0.1);
+    /* transform: scaleX(-1); */
+    /* transform: scaleY(1.5); */
+}
+
+
+
+.green{
+    background-color: green;
+    width: 50%;
+    height: 50%;
+    transition: 1s;
+}
+
+.green:hover{
+    transform: skew(-20deg,20deg);
+    /* transform: skewX(20deg); */
+    /* transform: scewY(-20deg); */
+}
+
+
+
+
+
+
+/* max-width - ДО
+   min-width - ОТ */
+
+   /*DIV в сontainer под друг друга */
+@media screen and (max-width: 650px) {
+    .container{
+        flex-direction: column;
+        
+    
+    }
+    .red{
+        flex-direction: column;
+        
+    }
+    .blue{
+        flex-direction: column;
+        
+    }
+}
+
+/* меняем цвета */
+@media screen and (min-width:700px) and (max-width:800px) {
+    .blue{
+        background-color: burlywood;
+        
+    }
+    .red{
+        background-color: burlywood;
+        
+    }
+}
+

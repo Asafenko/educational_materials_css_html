@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Центрирование по вертикали​ */
+
+
+
+/* Абсолютное позиционирование​ position:relative и position: absolute */
+/* .container{
+    height: 10em;
+    background-color: brown;
+    position: relative; */
+    /* Второй способ это dispaly flex */
+    /* display: flex;
+    align-items: center; */
+/* } */
+
+/* .container p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    color: white;
+} */
+
+
+/* Абсолютное позиционирование​ dispaly flex*/
+/* .container{
+    height: 10em;
+    background-color: brown;
+    display: flex; */
+    /* обрашение к родителю align-items */
+    /* align-items: stretch;
+    justify-content: flex-end;
+ }  */
+
+/* .container p {
+    margin: 0;
+    color: white;
+    background-color: aqua;
+}
+.container .green {
+    background-color: green; */
+    /* обращение к ребёнку align-self*/
+    /* align-self: center;
+}
+
+.container .blue{
+    background-color: blue;
+} */
+
+
+/* LINE-HEIGHT */
+
+/* .container{
+    height: 150px;
+    background-color: brown;
+}
+.container p{
+    margin: 0;
+    color: aliceblue;
+    line-height: 150px;
+} */
+
+/* 2 Вертикальное выравнивание иконок и смайликов */
+
+/* .container{
+    background-color: brown;
+    height: 10em;
+}
+.container p {
+    margin: 0;
+    color: black;
+} */
+
+/* .container img{
+    width: 150px;
+    height: 150px; */
+    /* выравнивание текста с картиной vertical-align: middle; */
+    /* vertical-align: middle;
+} */
+
+
+
+/* Центрирование и по горизонтали и вертикали​ */
+
+
+/* Абсолютное позиционирование */
+
+/* .container{
+    height: 10em;
+    background-color: brown;
+    position: relative;
+} */
+
+/* .container p{
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* Убирает со-скок слов ВАЖНО margi-right:-50% */
+    /* margin-right: -50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* Абсолютное позиционирование​  dispaly flex */
+
+/* .container{
+    height: 10em;
+    background-color: brown;
+    display: flex; */
+    /* Y */
+    /* align-items: center; */
+    /* X */
+    /* justify-content: center;   
+}
+
+.container p{
+    margin: 0;
+    color: white;
+} */
+
+
+/*  Абсолютное позиционирование С помощью padding ​ */
+
+/* .container{
+    background-color: brown;
+    padding: 5em 0;
+    text-align: center;
+}
+.container p{
+    margin: 0;
+    color: white;
+} */
+
+
+/* 1)text-align: center; идеально для текста​
+   2)margin: 0 auto; идеально для блоков, если известна их ширина. */

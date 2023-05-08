@@ -1,0 +1,221 @@
+/* div {
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    margin: 100px;
+    border: 3px solid green;
+}
+
+.blue {  
+    background-color: aqua;
+}
+
+.green {
+    background-color: green;
+}
+
+div {
+    overflow: hidden;
+}
+
+img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+img {
+    width: 100%;
+    transition: 1s;
+} */
+
+/* Добавляем стили для блока, содержащего в себе ссылку */
+/* .block{
+    display: inline-block;
+    height: 80px;
+    width: 20vw;
+    position: relative;
+} */
+   /* Добавляем стили для ссылки в блоках */
+   /* .block a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 2em 0;
+    position: absolute;
+    z-index: 2;
+   } */
+   /* Цвет фона для каждого блока */
+   /* .bl-1{
+    background: #686E8F;
+   } 
+   .bl-2{
+    background: #FCCC41;
+   } */
+   /* 
+    С помощью псевдоэлемента ::before добавим «подни-
+    мающуюся шторку» для каждого блока со своим цветом
+   */
+   /* .bl-1::before {
+    content: '';
+    background-color: rgba(252, 204, 65, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    transition: 1s;
+   }
+   .bl-2::before {
+    content: '';
+    background-color: rgba(104, 110, 143, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    transition: 1s;
+   } */
+   /* При наведении «шторка» будет высотой 100% */
+   /* .bl-1:hover::before, .bl-2:hover::before{
+    height: 100%;
+   } */
+/* 
+   div {
+    position: relative;
+    display: inline-block;
+    padding: 15px 70px;
+    border: 5px solid #B17461;
+    color: #B17461;
+    font-size: 30px;
+    font-family: arial;
+    background-image: linear-gradient(#B17461, #B17461);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+  }
+  div:hover {
+    background-size: 100% 100%;
+    color: #fff;
+  } */
+
+
+  /* div {
+    position: relative;
+    display: inline-block;
+    padding: 15px 70px;
+    border: 5px solid #B17461;
+    color: #B17461;
+    border: 5px solid #B17461;
+    font-size: 30px;
+    font-family: arial;
+  }
+
+  div:before {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: #B17461;
+    z-index: -1;
+    transform: scale(0);
+    transition: 1s;
+  }
+
+  div:hover {
+    color: #fff;
+  }
+
+  div:hover:before {
+    transform: scale(1);
+  } */
+
+  /* div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(143, 143, 206);
+    transition: 1s;
+    margin: 40px;
+  }
+
+  div:hover {
+    transform: rotate(-360deg);
+  } */
+
+/* h1 {
+    background-color:#d4c4ff;
+    width: 30vw;
+    color: #fff;
+    animation: myAnim 5s linear alternate infinite;
+}
+
+@keyframes myAnim {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 50vw;
+    }
+}
+
+@keyframes secondAnim {
+    from {
+        margin-left: 40px;
+    }
+
+    to {
+        margin-left: 500px;
+    }
+} */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(143, 143, 206); */
+    /* transition: all 4s linear 0s; */
+    /* transition: 4s; */
+    /* transition: all 4s linear 2s; */
+    /* margin: 100px; */
+/* }
+
+
+div:hover {
+    transform: rotate(360deg);
+  } */
+
+  .container {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    position: relative;
+  }
+
+  .door {
+    background-color: brown;
+    width: 50%;
+    border: 3px solid black;
+  }
+
+  p {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+  }
+
+  .container:hover .left{
+    transform: perspective(1000px) rotateY(45deg);
+    transition: 2s;
+  }
+
+  .container:hover .right{
+    transform: perspective(1000px) rotateY(-45deg);
+    transition: 2s;
+}
